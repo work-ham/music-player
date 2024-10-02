@@ -29,11 +29,11 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 git clone https://github.com/your-username/music-player.git
 cd music-player
 
-###Install Dependencies
+### Install Dependencies
 ```bash
 npm install
 
-##Setup
+## Setup
 Place your music files in the music directory inside the project folder.
 Update the server code if necessary to ensure it reads the music files correctly.
 Start the Server
