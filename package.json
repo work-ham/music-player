@@ -2,10 +2,12 @@
   "name": "music-player",
   "version": "1.0.0",
   "description": "A simple and interactive music player built with HTML, CSS, and JavaScript that allows you to play audio files from a specified directory. The player features a user-friendly interface, shuffle play, and essential playback controls.",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "node server.js",
+    "vercel-build": "node server.js"
   },
   "repository": {
     "type": "git",
