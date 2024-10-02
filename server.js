@@ -9,10 +9,6 @@ const musicDir = path.join(__dirname, 'music');
 // Serve static files (HTML, CSS, JS)
 app.use(express.static(__dirname));
 
-// Route for the root URL
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
-});
 // Serve music files with correct Content-Type
 app.get('/music/:filename', (req, res) => {
     const filePath = path.join(musicDir, req.params.filename);
@@ -52,3 +48,4 @@ const port = process.env.PORT || 8000;
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
+module.exports = app
