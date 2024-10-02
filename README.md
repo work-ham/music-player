@@ -73,4 +73,4 @@ Font Awesome for the icon library.
 Node.js and Express for the backend server.
 The community for inspiration and support.
 
-```Feel free to replace `https://github.com/your-username/music-player.git` with your actual repository link, 
+```Feel free to replace `https://github.com/work-ham/music-player.git` with your actual repository link, 
