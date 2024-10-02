@@ -40,10 +40,10 @@ Start the Server
 ```bash
 node server.js
 
-##Access the Application
+## Access the Application
 Open your web browser and go to http://localhost:3000 to access the music player.
 
-##Usage
+## Usage
 Click on any song title in the playlist to start playing it.
 Use the play, pause, next, and previous buttons to control playback.
 Enable shuffle mode to randomly play songs.
@@ -53,14 +53,14 @@ style.css: The CSS file for styling the music player.
 script.js: The JavaScript file containing the functionality of the music player.
 server.js: The Node.js server file to serve audio files and song data.
 
-##Troubleshooting
+## Troubleshooting
 If you encounter issues with the audio not playing, ensure the file paths to the music files are correct in the server code.
 Make sure your browser supports audio playback for the formats you're using.
 
-##Contributing
+## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-##Fork the project.
+## Fork the project.
 Create your feature branch (git checkout -b feature/AmazingFeature).
 Commit your changes (git commit -m 'Add some AmazingFeature').
 Push to the branch (git push origin feature/AmazingFeature).
@@ -68,7 +68,7 @@ Open a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Acknowledgments
+## Acknowledgments
 Font Awesome for the icon library.
 Node.js and Express for the backend server.
 The community for inspiration and support.
