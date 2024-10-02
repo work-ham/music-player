@@ -1,19 +1,14 @@
 {
-    "version": 2,
-    "builds": [
+    "rewrites": [
       {
-        "src": "api/**/*.js",
-        "use": "@vercel/node"
-      },
-      {
-        "src": "public/**/*",
-        "use": "@vercel/static"
+        "source": "/api/songs",
+        "destination": "/api/songs.js"
       }
     ],
     "routes": [
       {
-        "src": "/music/(.*)",
-        "dest": "/public/music/$1"
+        "src": "/(.*)",
+        "dest": "/public/$1"
       }
     ]
   }
