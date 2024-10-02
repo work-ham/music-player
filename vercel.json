@@ -1,15 +1,20 @@
 {
     "version": 2,
     "builds": [
-        {
-            "src": "*.js",
-            "use": "@vercel/node"
-        }
+      {
+        "src": "api/**/*.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "public/**/*",
+        "use": "@vercel/static"
+      }
     ],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/"
-        }
+      {
+        "src": "/music/(.*)",
+        "dest": "/public/music/$1"
+      }
     ]
-}
+  }
+  
